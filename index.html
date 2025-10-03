@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Blog de Recetas — Gourmet</title>
+
+  
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <div id="loading-overlay" class="loading-overlay" aria-hidden="true">
+    <div class="spinner" role="status" aria-label="Cargando"></div>
+  </div>
+
+  
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+      
+        <img src="logo.jpg" alt="Logo del blog" />
+        <span class="logo-text">amor ala cocina</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">Inicio</a></li>
+          <li><a href="#recetas" class="nav-link">Recetas</a></li>
+          <li><a href="#categorias" class="nav-link">Categorías</a></li>
+          <li><a href="#sobre-mi.html"class="nav-link">Sobre mí</a></li>
+          <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  
+  <section id="hero" class="hero">
+    <div class="hero-bg" style="background-image: url('imagenes/hero.jpg');"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content container">
+      <h1 class="hero-title animate-fade">Recetas tradicionales con toque gourmet</h1>
+      <p class="hero-sub animate-fade" style="animation-delay: 0.2s">
+        Descubre sabores auténticos, técnicas fáciles y recetas para impresionar en cualquier ocasión.
+      </p>
+      <div class="hero-cta animate-fade" style="animation-delay: 0.4s">
+        <a href="#recetas" class="btn-primary">Ver Recetas Destacadas</a>
+        <a href="#newsletter" class="btn-ghost">Suscribirme</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container site-main">
+
+   
+    <div class="layout-grid">
+
+    
+      <section class="content-column">
+
+    
+        <section class="featured-recipes" id="recetas">
+          <h2 class="section-title">🍲 Recetas Destacadas</h2>
+
+          <div class="recipes-grid">
+           
+            <article class="recipe-card featured-card appear">
+              <div class="recipe-image">
+                <img src="lasaña4.jpg" alt="Lasaña tradicional italiana">
+                <span class="recipe-badge">Destacada</span>
+              </div>
+              <div class="recipe-body">
+                <h3 class="recipe-title">Lasaña de la Abuela</h3>
+                <p class="recipe-excerpt">Capa tras capa: pasta, carne jugosa y bechamel cremosa — tradición garantizada.</p>
+                <div class="recipe-meta">
+                  <span>⏱ 90 min</span>
+                  <span>⭐ Media</span>
+                  <span>🍽 6 porciones</span>
+                </div>
+                <div class="recipe-actions">
+                  <a class="btn-recipe" href="receta-lasagna.html">Ver Receta</a>
+                  <a class="btn-outline" href="#">Guardar</a>
+                </div>
+              </div>
+            </article>
+
+          
+            <article class="recipe-card appear">
+              <div class="recipe-image">
+                <img src="guacamole3.jpg" alt="Guacamole mexicano">
+                <span class="recipe-badge small">🌶 Picante</span>
+              </div>
+              <div class="recipe-body">
+                <h3 class="recipe-title">Guacamole Mexicano</h3>
+                <p class="recipe-excerpt">Aguacate maduro, limón y chile. Sencillo y perfecto para compartir.</p>
+                <div class="recipe-meta">
+                  <span>⏱ 15 min</span>
+                  <span>✅ Fácil</span>
+                  <span>🍽 4 porciones</span>
+                </div>
+                <div class="recipe-actions">
+                  <a class="btn-recipe" href="receta-guacamole.html">Ver Receta</a>
+                </div>
+              </div>
+            </article>
+
+ 
+            <article class="recipe-card appear">
+              <div class="recipe-image">
+                <img src="pay.jpg" alt="Pay de queso casero">
+                <span class="recipe-badge small">rico</span>
+              </div>
+              <div class="recipe-body">
+                <h3 class="recipe-title">Pay Casero</h3>
+                <p class="recipe-excerpt">aprende hacer un rico postre</p>
+                <div class="recipe-meta">
+                  <span>⏱ 60 min</span>
+                  <span>⚠ Difícil</span>
+                  <span>🍽 2 porciones</span>
+                </div>
+                <div class="recipe-actions">
+                  <a class="btn-recipe" href="">Ver Receta</a>
+                </div>
+              </div>
+            </article>
+
+          
+            <article class="recipe-card appear">
+              <div class="recipe-image">
+                <img src="coco.jpg" alt="crema de coco">
+              </div>
+              <div class="recipe-body">
+                <h3 class="recipe-title">crema de coco</h3>
+                <p class="recipe-excerpt">refrescante y rica.</p>
+                <div class="recipe-meta">
+                  <span>⏱ 50 min</span>
+                  <span>🔥 Media</span>
+                  <span>🍽 4 porciones</span>
+                </div>
+                <div class="recipe-actions">
+                  <a class="btn-recipe" href="#">Ver Receta</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </section>
+
+ 
+       
+
+      
+      <aside class="sidebar">
+        <div class="card sidebar-card">
+          <h3>📌 Recetas destacadas</h3>
+          <ul class="featured-list">
+            <li><a href="#">Lasaña de la Abuela</a></li>
+            <li><a href="#">Chiles en Nogada</a></li>
+            <li><a href="#">Mole Poblano</a></li>
+          </ul>
+        </div>
+
+        <div class="card subscribe-card">
+          <h3>Suscríbete</h3>
+          <p>Recibe recetas nuevas cada semana.</p>
+          <form>
+            <input type="email" placeholder="Tu correo" required>
+            <button class="btn-primary" type="submit">Suscribirme</button>
+          </form>
+        </div>
+      </aside>
+
+    </div> 
+
+  </main>
+
+ 
+  <section id="newsletter" class="newsletter container">
+    <h2>Únete al boletín</h2>
+    <p>Trucos, recetas exclusivas y menús mensuales.</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Ingresa tu correo" required>
+      <button class="btn-primary" type="submit">Quiero recibir recetas</button>
+    </form>
+  </section>
+
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-about">
+        <img src="logo.jpg" alt="logo" class="footer-logo">
+        <p>erikita_amor ala cocina.</p>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">📸 Instagram</a>
+        <a href="#" aria-label="Facebook">📘 Facebook</a>
+        <a href="#" aria-label="Twitter">🐦 Twitter</a>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <small>© <span id="year"></span> amor ala cocina.</small>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
